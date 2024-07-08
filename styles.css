@@ -11,7 +11,18 @@ body {
     text-align: center;
 }
 
+.video-container {
+    position: relative;
+    overflow: hidden;
+    
+}
 
+.video-container iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+}
 
 
 
